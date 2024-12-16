@@ -46,5 +46,5 @@ filterSelect.addEventListener('change', () => loadCars(filterSelect.value, searc
 // Initialize cars on page load
 loadCars();
 function goHome() {
-    window.location.href = 'home.html';  // Redirect to the home page (adjust if your homepage is named differently)
+    window.location.href = 'index.html';  // Redirect to the home page (adjust if your homepage is named differently)
 }
