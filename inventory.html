@@ -1,0 +1,33 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MDRIVE - Dynamic Marketing Website for Car Sales">
+    <title>EMRIVE - Home</title>
+    <link rel="stylesheet" href="project.css">
+    <script defer src="script.js"></script>
+</head>
+
+<!-- Inventory Page -->
+<section id="inventory" class="inventory">
+    <h2>Car Inventory</h2>
+    <div class="search-filters">
+        <input type="text" id="search" placeholder="Search by model or brand">
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="electric">Electric</option>
+        </select>
+    </div>
+    <div class="car-list">
+        <!-- Dynamic car cards will be loaded here using JavaScript -->
+    </div>
+</section>
+</html>
+
+<body><!-- Back to Home Button -->
+    <button id="backToHome" onclick="goHome()">Back to Home</button>
+    </body>
