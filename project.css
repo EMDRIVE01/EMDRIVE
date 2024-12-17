@@ -329,3 +329,9 @@ footer {
 #backToHome:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+@media screen and (max-width: 768px) {
+    /* Adjust styles for mobile screens */
+    .menu, .buttons, .images {
+        display: block; /* Example: Make items stack vertically */
+    }
+}
